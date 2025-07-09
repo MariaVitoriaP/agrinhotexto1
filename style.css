@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    .shadows-into-light-regular {
+        font-family: "Shadows Into Light", cursive;
+        font-weight: 500;
+        font-style: normal;
+      }
+}
+
+.cabecalho {
+    background-color: #358353;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.cabecalho-imagem{
+    width: 10%;
+}
+
+.cabecalho-lista-item{
+    display: inline-block;
+    margin: 0 16px;
+    font-size: 24px;
+}
+
+.Inicio-titulo{
+    padding: 24px 0;
+}
+
+.Livros-div{
+    text-align: center;
+    padding: 16px 0;
+}
+
+
+.rodape{
+    background-color: #358353;
+    text-align: center;
+}
+
+.rodape-imagem{
+    height: 60px;
+    padding: 12px 0;
+}
